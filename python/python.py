@@ -46,12 +46,9 @@
 # print(son)
 
 login = input("Loginingizni kiriting")
-parol = int(input("Parolingizni kiriting"))
+parol = input("Parolingizni kiriting")
 
-Login = 'admin'
-Parol = '12345'
-
-if login==Login and parol==Parol:
+if login.lower() =="admin" and parol=="12345":
     print("Xush kelibsiz")
 else:
     print("Login yoki parol xato")    
