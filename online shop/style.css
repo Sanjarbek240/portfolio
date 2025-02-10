@@ -1,0 +1,13 @@
+.div {
+    width: 250px;
+    height: auto;
+    background-color: white;
+    border: 1px solid black;
+    float: center;
+    
+
+}
+
+.div h1{
+    font-family: 'Courier New', Courier, monospace;
+}
