@@ -1,13 +1,111 @@
+.b{
+    width: 100%;
+}
+
 .div {
-    width: 250px;
+    width: 350px;
     height: auto;
     background-color: white;
     border: 1px solid black;
-    float: center;
+    margin: 0 auto;
     
 
 }
 
-.div h1{
+.bosh h1{
     font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+.bosh{
+font-family: Arial,
+ sans-serif;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+}
+.input-group {
+    margin-bottom: 10px;
+    text-align: left;
+}
+.input-group label {
+    font-size: 12px;
+    color: #8e8e8e;
+    display: block;
+}
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.input-group .password-wrapper {
+    position: relative;
+}
+.input-group .show-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #00376b;
+    cursor: pointer;
+    font-size: 12px;
+}
+.login-btn {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+.login-btn:hover {
+    background-color: #0077cc;
+}
+.or-divider {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.or-divider::before,
+.or-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+.or-divider span {
+    margin: 0 10px;
+    color: #8e8e8e;
+    font-size: 12px;
+}
+.facebook-login {
+    color: #385185;
+    font-weight: bold;
+    text-decoration: none;
+}
+.forget{
+    color: #464b57;
+    font-weight: normal;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 8;
 }
