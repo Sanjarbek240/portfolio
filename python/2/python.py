@@ -37,7 +37,8 @@
 
 
 son = [1,2,3,4,5,6]
-if son / len(son):
-    print("ortacha qiymati")
+if son:
+    qiymat=sum(son)/len(son)
+    print(qiymat)
 else:
     print()
