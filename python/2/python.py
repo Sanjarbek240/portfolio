@@ -12,13 +12,25 @@
 #     print("F")        
 
 
-n = int(input("Ixtiyoriy son kiriting"))
+# n = int(input("Ixtiyoriy son kiriting"))
 
-if n % 3 == 0 and n % 5 == 0:
-    print("FizzBuzz")
-elif n%5==0:
-    print("Buzz")
-elif n%3==0 :
-    print("Fizz")
-else:
-    print(n)           
+# if n % 3 == 0 and n % 5 == 0:
+
+#     print("FizzBuzz")
+# elif n%5==0:
+#     print("Buzz")
+# elif n%3==0 :
+#     print("Fizz")
+# else:
+#     print(n)           
+
+
+a = input("matn kiriting")
+unlilar = "AEUIOO'aeuioo'"
+soni = 0
+
+for matn in a:
+    if matn in unlilar:
+        soni+=1
+
+print(soni)        
