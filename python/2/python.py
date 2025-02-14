@@ -25,12 +25,19 @@
 #     print(n)           
 
 
-a = input("matn kiriting")
-unlilar = "AEUIOO'aeuioo'"
-soni = 0
+# a = input("matn kiriting")
+# unlilar = "AEUIOO'aeuioo'"
+# soni = 0
 
-for matn in a:
-    if matn in unlilar:
-        soni+=1
+# for matn in a:
+#     if matn in unlilar:
+#         soni+=1
 
-print(soni)        
+# print(soni)        
+
+
+son = [1,2,3,4,5,6]
+if son / len(son):
+    print("ortacha qiymati")
+else:
+    print()
