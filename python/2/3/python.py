@@ -1,4 +1,4 @@
-# menu = ['osh','somsa','shorva','lavash']
+# menu = ['osh','somsa','shorva','lavash'] or ['osh ','somsa ','shorva ','lavash '] 
 # buyurtmalar = []
 # narx = 0
 # x = int(input("Hurmatli mijoz siz nechta taom buyurma qilasiz:\t"))
@@ -26,15 +26,22 @@
 #   if a == 'lavash':
 #     narx += 25000
 
-# print(f"sizning tolovingiz: {narx}"
+# print(f"sizning tolovingiz: {narx}")
 
 
 
-yosh = int(input("yoshingizni kiriting:"))
+# yosh = int(input("yoshingizni kiriting:"))
 
-if yosh < 18:
-    print("sizga kirish taqiqlanadi")
-elif yosh >= 18:
-    print("Xush kelibsiz")    
+# if yosh < 18:
+#     print("sizga kirish taqiqlanadi")
+# elif yosh >= 18:
+#     print("Xush kelibsiz")    
 
 
+kun = input("Hafta kunini kiriting: ")
+kun.lower()
+
+if kun == "shanba" or kun == "yakshanba":
+    print("Bugun dam olish kuni")
+else:
+    print("Bugun ish kuni")
