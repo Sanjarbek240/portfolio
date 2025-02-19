@@ -16,13 +16,14 @@ else:
     print("Savatchangiz bosh")
 print(f"\nSizning buyurmalar soningiz: {len(buyurtmalar)}")
 
-if buyurtma == 'osh':
+for a in buyurtmalar:
+  if a == 'osh':
     narx += 10000
-if buyurtma == 'somsa':
-    narx+=15000
-if buyurtma == 'shorva':
+  if a == 'somsa':
+    narx +=a
+  if a == 'shorva':
     narx += 20000
-if buyurtma == 'lavash':
+  if a == 'lavash':
     narx += 25000
 
 print(f"sizning tolovingiz: {narx}")
