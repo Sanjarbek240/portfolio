@@ -1,0 +1,1 @@
+son = int(input("Ixtiyoriy son kiriting:"))
