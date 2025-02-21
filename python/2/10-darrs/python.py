@@ -28,15 +28,24 @@
 #     print("Bu sonlar bir bir bilan teng")   
 
 
-yil = int(input("oylarni kiriting raqamlarda:"))
+# yil = int(input("oylarni kiriting raqamlarda:"))
 
-if 12<= yil <= 2:
-    print("Qish")
-elif 3 <= yil <= 5:
-    print("Bahor")
-elif 6 <= yil <=8:
-    print("Yoz") 
-elif 9<= yil <= 11:
-    print("Kuz")
+# if 12<= yil <= 2:
+#     print("Qish")
+# elif 3 <= yil <= 5:
+#     print("Bahor")
+# elif 6 <= yil <=8:
+#     print("Yoz") 
+# elif 9<= yil <= 11:
+#     print("Kuz")
+# else:
+#     print("Xato")              
+
+parol = input("Parol kiriting")
+a = "12345"
+
+if parol == a:
+    print("Xush kelibsiz")
+
 else:
-    print("Xato")              
+    print("Xato parol")    
