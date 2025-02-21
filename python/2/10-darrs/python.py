@@ -30,30 +30,14 @@
 
 yil = int(input("oylarni kiriting raqamlarda:"))
 
-if yil == 12 :
+if yil == 12 or yil ==1 or yil == 2 :
     print("Qish")
-elif yil == 1:
-    print("Qish")    
-elif yil == 2:
-    print("Qish")
-elif yil == 3:
+elif yil == 3 or yil ==4 or yil == 5:
     print("Bahor")
-elif yil == 4:
-    print("Bahor")
-elif yil == 5:
-    print("Bahor")
-elif yil == 6:
-    print("Yoz") 
-elif yil == 7:
+elif yil == 6 or yil ==  7 or yil == 8:
     print("Yoz")
-elif yil == 8:
-    print("Yoz")
-elif yil == 9:
-    print("Kuz")
-elif yil == 10:
-    print("Kuz")    
-elif yil == 11:
-    print("Kuz")
+elif yil == 9 or yil== 10 or yil == 11:
+    print("Kuz")            
 else:
     print("Xato")              
 
