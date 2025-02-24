@@ -28,16 +28,30 @@
 
 #2
 
-bollar = {
-    "Ali": 85, 
-    "Vali": 92, 
-    "Hasan": 78, 
-    "Gani": 99
-}
-a = None
+# bollar = {
+#     "Ali": 85, 
+#     "Vali": 92, 
+#     "Hasan": 78, 
+#     "Gani": 99
+# }
+# kattasi = None
 
-for b in bollar.items():
-    print(f"{b}")
-    if a is None or b > a:
-        a = b
-print(a)    
+# for ball in bollar.values():
+#     print(f"{ball}")
+#     if kattasi is None or ball > kattasi:
+#         kattasi = ball
+
+
+# print(f"Eng kattasi: {kattasi}")   
+
+
+# 3 
+talabalar = {
+    "Ali": {"yosh": 20, "kurs": 2, "universitet": "TATU"},
+    "Vali": {"yosh": 21, "kurs": 3, "universitet": "SAMDU"}
+}
+
+print(f"Ali universiteti - {talabalar['Ali']['universitet']}")       
+
+talabalar['Vali']['kurs'] = 4   
+print(talabalar)
