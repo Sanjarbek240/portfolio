@@ -35,9 +35,9 @@ bollar = {
     "Gani": 99
 }
 a = None
-b = None
 
-
-for talaba,ball in bollar.items():
+for b in bollar.items():
     print(f"{b}")
-   
+    if a is None or b > a:
+        a = b
+print(a)    
