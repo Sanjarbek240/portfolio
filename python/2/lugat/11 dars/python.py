@@ -34,6 +34,10 @@ bollar = {
     "Hasan": 78, 
     "Gani": 99
 }
+a = None
+b = None
 
-for b in bollar.items():
+
+for talaba,ball in bollar.items():
     print(f"{b}")
+   
