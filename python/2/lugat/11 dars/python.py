@@ -27,3 +27,13 @@
 
 
 #2
+
+bollar = {
+    "Ali": 85, 
+    "Vali": 92, 
+    "Hasan": 78, 
+    "Gani": 99
+}
+
+for b in bollar.items():
+    print(f"{b}")
