@@ -7,4 +7,9 @@ f = {
 }
 
 for t,e in f.items():
-    print(f"Kalit : {t} Qiymat : {e}")
+    if t == "color":
+        print(f"t")
+        for rang in e:
+            print(f"          -{rang}") 
+    else:       
+        print(f"{t}  {e}")
