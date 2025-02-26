@@ -33,8 +33,9 @@ cars = [
     
 ]
 for car in cars:
-    if car['narx'] >30000:
-        narx = 'qimmat'
+    if car["narxi"] > 30000:
+        narx = "qimmat"
     else:
-        narx = 'azon' 
-    print(f"{car['model']} ({car['rang']} rangda) - {narx}")          
+        narx = "azon" 
+    print(f"{car['turi']} ({car['rang']} rangda) - {narx}")    
+
