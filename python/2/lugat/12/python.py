@@ -37,5 +37,4 @@ for car in cars:
         narx = 'qimmat'
     else:
         narx = 'azon' 
-
-print(f"{car['model']} ({car['rang']} rangda) - {narx}")          
+    print(f"{car['model']} ({car['rang']} rangda) - {narx}")          
