@@ -25,7 +25,17 @@
 
 
 cars = [
-    {"turi": "Malibu", "rang":"oq","narxi":"350000"},
-    {"turi": "Spark", "rang":"qizil","narxi":"12000"}
+    {"turi": "Malibu", "rang":"oq","narxi":"35000"},
+    {"turi": "Spark", "rang":"qizil","narxi":"12000"},
+    {"turi": "Cobalt", "rang":"qora","narxi":"14000"},
+    {"turi": "BMW X8", "rang":"qora","narxi":"40000"},
+    {"turi": "Nexia", "rang":"kok","narxi":"13000"}
     
 ]
+for car in cars:
+    if car['narx'] >30000:
+        narx = 'qimmat'
+    else:
+        narx = 'azon' 
+
+print(f"{car['model']} ({car['rang']} rangda) - {narx}")          
