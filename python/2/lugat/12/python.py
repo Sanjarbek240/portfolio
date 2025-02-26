@@ -12,8 +12,8 @@ kitoblar = [
     {"nomi": "UFQ", "muallif": "Otkir Hoshimov", "yili": 1984},
     {"nomi": 1984, "muallif": "Jorj Oruell", "yili": 1949},
     {"nomi": "Allkimyogar", "muallif": "Pauleo Kalyuelolo", "yili": 1988},
-    {"nomi": "Dunyo Ishlari", "muallif": "J.K. Rowling", "yili": 2011},
-    {"nomi": "Don Kixot", "muallif": "Miguel de Cervantes", "yili": 1605}
+    {"nomi": "Dunyo Ishlari", "muallif": "Otkir Hoshimov", "yili": 2011},
+    {"nomi": "Kecha va kunduz", "muallif": "Cholpon", "yili": 1936}
 ]
 
 
