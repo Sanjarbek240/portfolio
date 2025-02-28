@@ -11,11 +11,11 @@
 
 lugat = {"olma": 50, "banan": 20, "apelsin": 30}
 
-nomi = input("Mahsulot nomi: ").lower()
-miqdori = int(input("Miqdor: "))
+nomi = input("nomi:").lower()
+miqdori = int(input("miqdori: "))
 
 if nomi in lugat and lugat[nomi] >= miqdori:
     lugat[nomi] -= miqdori
-    print(f"{lugat} dona {nomi} sotildi. Qoldiq: {lugat[nomi]}")
+    print(f"{miqdori} dona {nomi} sotildi-qolgani: {lugat[nomi]}")
 else:
-    print("Yetarli mahsulot yo‘q!")
+    print("tugagan!")
