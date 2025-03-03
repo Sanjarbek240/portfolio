@@ -23,15 +23,15 @@ for kitob in kitoblar:
     print(kitob)
 
 
-import random 
-tasodifiy_son = random.randint(1,10)
-while True:
-    try:
-        taxmin = int(input("1 dan 10gacha bolgan sonni kiriting "))
-        if taxmin == tasodifiy_son:
-            print("Tabriklaymiz togri topdingiz")
-            break
-        else:
-            print("Xato")
-    except ValueError:
-        print("Iltimos faqat butun son kiriting")        
+# import random 
+# tasodifiy_son = random.randint(1,10)
+# while True:
+#     try:
+#         taxmin = int(input("1 dan 10gacha bolgan sonni kiriting "))
+#         if taxmin == tasodifiy_son:
+#             print("Tabriklaymiz togri topdingiz")
+#             break
+#         else:
+#             print("Xato")
+#     except ValueError:
+#         print("Iltimos faqat butun son kiriting")        
