@@ -10,17 +10,17 @@ while True:
         print("Xush kelibsiz.")
 
 
-kitoblar = []
+# kitoblar = []
 
-while True:
-    kitob = input("Sevimli kitobingizni kiriting: ")
+# while True:
+#     kitob = input("Sevimli kitobingizni kiriting: ")
     
-    if kitob.lower() == "stop":
-        break
-    kitoblar.append(kitob)
-print("kiritilgan kitoblar:")
-for kitob in kitoblar:
-    print(kitob)
+#     if kitob.lower() == "stop":
+#         break
+#     kitoblar.append(kitob)
+# print("kiritilgan kitoblar:")
+# for kitob in kitoblar:
+#     print(kitob)
 
 
 # import random 
