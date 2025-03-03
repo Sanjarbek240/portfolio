@@ -10,3 +10,14 @@
 #         print("Xush kelibsiz.")
 
 
+# kitoblar = []
+
+# while True:
+#     kitob = input("Sevimli kitobingizni kiriting: ")
+    
+#     if kitob.lower() == "stop":
+#         break
+#     kitoblar.append(kitob)
+# print("kiritilgan kitoblar:")
+# for kitob in kitoblar:
+#     print(kitob)
