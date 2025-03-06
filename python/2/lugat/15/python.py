@@ -11,11 +11,8 @@
 # for ism in ismlar:
 #     print(ism)
 
-mevalar = ["olma", "banan", "olma", "shaftoli", "olma"]
+# mevalar = ["olma", "banan", "olma", "shaftoli", "olma"]
 
-# "olma" ro‘yxatda bor ekan, uni o‘chiramiz
-while "olma" in mevalar:
-    mevalar.remove("olma")
-
-# Natijaviy ro‘yxatni chiqaramiz
-print("Yangilangan ro‘yxat:", mevalar)
+# while "olma" in mevalar:
+#     mevalar.remove("olma")
+# print(mevalar)
