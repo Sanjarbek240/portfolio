@@ -1,16 +1,12 @@
-# Bo‘sh ro‘yxat yaratamiz
 ismlar = []
-
-# Foydalanuvchidan ism kiritishni so‘raymiz
 while True:
-    ism = input("Ismingizni kiriting (to‘xtatish uchun 'stop' deb yozing): ")
+    ism = input("Ismingizni kiriting (toxtatish uchun 'stop' deb yozing): ")
     
-    if ism.lower() == "stop":  # Agar "stop" deb yozsa, tsikl to‘xtaydi
+    if ism.lower() == "stop": 
         break
     
-    ismlar.append(ism)  # Ismni ro‘yxatga qo‘shamiz
+    ismlar.append(ism)  
 
-# Yakuniy ro‘yxatni chiqaramiz
-print("\nKiritilgan ismlar ro‘yxati:")
+print("\nKiritilgan ismlar royxati:")
 for ism in ismlar:
     print(ism)
