@@ -26,4 +26,4 @@ for c in a:
     if c > b:
         b = c 
 
-print("eng kattasi:", b)
+print("Eng katta raqam:", b)
