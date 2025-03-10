@@ -19,11 +19,11 @@
 
 
 
-a = input("son kiriting: ")
-b = a[0] 
+# a = input("son kiriting: ")
+# b = a[0] 
 
-for c in a: 
-    if c > b:
-        b = c 
+# for c in a: 
+#     if c > b:
+#         b = c 
 
-print("Eng katta raqam:", b)
+# print("Eng katta raqam:", b)
