@@ -19,11 +19,11 @@
 
 
 
-son = input("Iltimos, bir son kiriting: ")
-katta = son[0] 
+a = input("son kiriting: ")
+b = a[0] 
 
-for raqam in son: 
-    if raqam > katta:
-        katta = raqam  
+for c in a: 
+    if c > b:
+        b = c 
 
-print("Eng katta raqam:", katta)
+print("eng kattasi:", b)
