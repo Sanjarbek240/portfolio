@@ -18,12 +18,13 @@
 #         print("butun son kiriiting")        
 
 
-
-# a = input("son kiriting: ")
-# b = a[0] 
-
-# for c in a: 
-#     if c > b:
-#         b = c 
-
-# print("Eng katta raqam:", b)
+while True:
+    try:
+         a = input("son kiriting: ")
+         b = a[0]
+         for c in a: 
+          if c > b:
+             b = a
+             print("Eng katta raqam:", b)
+    except ValueError:
+        print("Iltimos son kiriting")         
