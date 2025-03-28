@@ -84,15 +84,13 @@
 #     print(f"{a} toq son")
 
 
-def anagrammi_sozlar(soz1, soz2):
+def a(soz1, soz2):
     if sorted(soz1) == sorted(soz2):
-        return "Anagram"
+        return "anagram"
     else:
-        return "Anagram emas"
+        return "anagram emas"
+soz1 = input("birinchi so'zni kiriting: ")
+soz2 = input("ikkinchi so'zni kiriting: ")
 
-# Ikkita so'zni olish
-soz1 = input("Birinchi so'zni kiriting: ")
-soz2 = input("Ikkinchi so'zni kiriting: ")
-
-natija = anagrammi_sozlar(soz1, soz2)
+natija = a(soz1, soz2)
 print(natija)
