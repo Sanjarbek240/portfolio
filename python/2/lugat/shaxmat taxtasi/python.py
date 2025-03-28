@@ -75,10 +75,24 @@
 # start_knight_tour()
 
 
-print("\nFoydalanuvchi kiritgan soni 'toq', yoki 'juft' ekanligini aniqlovchi dastur.")
-a = int(input(f"Son kiriting:"))
+# print("\nFoydalanuvchi kiritgan soni 'toq', yoki 'juft' ekanligini aniqlovchi dastur.")
+# a = int(input(f"Son kiriting:"))
 
-if a % 2 == 0:
-    print(f"{a} juft son")
-else:
-    print(f"{a} toq son")
+# if a % 2 == 0:
+#     print(f"{a} juft son")
+# else:
+#     print(f"{a} toq son")
+
+
+def anagrammi_sozlar(soz1, soz2):
+    if sorted(soz1) == sorted(soz2):
+        return "Anagram"
+    else:
+        return "Anagram emas"
+
+# Ikkita so'zni olish
+soz1 = input("Birinchi so'zni kiriting: ")
+soz2 = input("Ikkinchi so'zni kiriting: ")
+
+natija = anagrammi_sozlar(soz1, soz2)
+print(natija)
