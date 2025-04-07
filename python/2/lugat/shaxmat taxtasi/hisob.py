@@ -1,3 +1,16 @@
-books = []
-def kitoblar():
-    
+def qoshish(a,b):
+    return a+b
+def ayirish(a,b):
+    return a-b 
+def kopaytirish(a,b):
+    return a*b
+def bolish(a,b):
+    return a/b
+def kvadrat(a):
+    return a**2  
+def kvadrat(b):
+    return b**2
+def kub(a):
+    return a**3
+def kub(b):
+    return b**3    
