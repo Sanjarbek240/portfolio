@@ -4,7 +4,7 @@ mahsulotlar = {
     "guruch": 12000,
     "shakar": 11000,
     "choy": 18000,
-    "yog'": 23000,
+    "moy": 23000,
     "tuz": 2000,
     "un": 8000,
     "makaron": 8500,
