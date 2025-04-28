@@ -1,12 +1,16 @@
-import math
+import main
 a = float(input("1-son kiriting"))
 b = float(input("2-son kiriting"))
 c = input("+,-,*,/")
 if c=='+':
-    javob =math.add(a,b)
+    javob =main.add(a,b)
 elif c =='-':
-    javob= math.subtracta(a,b)        
+    javob= main.subtracta(a,b)        
 elif c =='*':
-    javob= math.multiply(a,b)  
+    javob= main.multiply(a,b)  
 elif c =='/':
-    javob= math.divide(a,b)        
+    javob= main.divide(a,b)
+else:
+    print("xatoo")   
+
+print(javob)             
